@@ -1,0 +1,2 @@
+# yamlator
+Quick hack
