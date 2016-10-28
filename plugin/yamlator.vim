@@ -56,11 +56,11 @@ function! s:GetFullPath()
 
   call setpos(".", startPosition)
 
-  if &clipboard =~ '\<unnamed'
-    let @+ = result
-  else
-    let @@ = result
-  endif
+  "if &clipboard =~ '\<unnamed'
+    "let @+ = result
+  "else
+    "let @@ = result
+  "endif
 
   return result
 endfunction
